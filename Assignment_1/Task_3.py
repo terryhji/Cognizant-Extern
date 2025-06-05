@@ -1,4 +1,4 @@
-def input(num):
+def check_num(num):
     if num == 0:
         print("Zero it is. A perfect balance!")
     elif num > 0:
@@ -6,6 +6,6 @@ def input(num):
     else:
         print("This number is negative. Better luck next time!")
 
-num_arr = [-1, 5, 0]
-for num in num_arr:
-    input(num)
+print(f"Check Number:")
+num = input()
+check_num(int(num))
