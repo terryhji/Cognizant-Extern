@@ -33,3 +33,4 @@ while cond == 0:
                 print("Invalid input! Please enter a valid number.")
         case 5:
             cond = 1
+            print("Goodbye!")
